@@ -1,17 +1,15 @@
-*
+body{
+height: 100vh;
+}
+.parent
 {
-border-radius: 15%;
-border-top: 0;
-border-right: 0;
-border-left: 0;
-}
-legend{
-    font-weight: bold;
-}
-textarea:focus, input:focus {
-    color: #ff0000;
+    width: 500px;
 }
 
-input, select, textarea{
-    color: #000;
+.child
+{
+    width: 50%;
+    height: 300px;
+    color:green;
+    background-color: rgb(220, 217, 217);
 }
